@@ -1,1 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Somser SA | Cybersecurity Expert</title>
+
+<meta name="description" content="Somser SA is a Cybersecurity Expert and Python Developer from Bangladesh. Founder of Team ICSF specializing in penetration testing, social engineering, and secure system architecture.">
+<meta name="keywords" content="Somser SA, Cybersecurity Expert Bangladesh, Ethical Hacker, Team ICSF, Python Developer, Security Researcher">
+<meta name="author" content="Somser SA">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://somser-sa.pro.bd">
+
+<meta property="og:title" content="Somser SA | Cybersecurity Expert">
+<meta property="og:description" content="Cybersecurity Expert & Python Developer from Bangladesh">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/9/99/Somser-SA.jpg">
+<meta property="og:url" content="https://somser-sa.pro.bd">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/9/99/Somser-SA.jpg">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+--primary:#00f2ff;
+--accent:#00c3ff;
+--bg:#020409;
+--card:#0c111b;
+--text:#ffffff;
+--dim:#9fb3c8;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+background:linear-gradient(180deg,#020409,#050912);
+color:var(--text);
+font-family:'Plus Jakarta Sans',sans-serif;
+}
+
+html{scroll-behavior:smooth}
+
+/* NAV */
+nav{
+position:fixed;top:0;width:100%;height:70px;
+display:flex;justify-content:space-between;align-items:center;
+padding:0 6%;
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(15px);
+border-bottom:1px solid rgba(255,255,255,0.05);
+z-index:999;
+}
+
+.logo{
+display:flex;align-items:center;gap:10px;
+font-family:'JetBrains Mono';
+color:var(--primary);
+font-weight:700;
+}
+
+.logo img{
+width:38px;height:38px;border-radius:50%;
+box-shadow:0 0 12px var(--primary);
+}
+
+.nav-links{display:flex;gap:25px;}
+.nav-links a{
+color:var(--dim);
+text-decoration:none;
+font-size:.9rem;
+transition:.3s;
+}
+.nav-links a:hover{color:var(--primary);}
+
+/* LANG */
+.lang{display:flex;gap:8px;}
+.lang button{
+background:transparent;border:1px solid var(--dim);
+color:var(--dim);padding:4px 10px;cursor:pointer;
+}
+.lang .active{border-color:var(--primary);color:var(--primary);}
+
+/* SECTION */
+section{
+padding:120px 8%;
+min-height:100vh;
+}
+
+/* HERO */
+.badge{
+background:rgba(0,242,255,0.1);
+color:var(--primary);
+padding:6px 15px;
+border-radius:50px;
+display:inline-block;
+margin-bottom:20px;
+}
+
+h1{
+font-size:clamp(2.5rem,6vw,4rem);
+font-weight:800;
+}
+
+.gradient{
+background:linear-gradient(90deg,#fff,var(--primary));
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+color:var(--dim);
+margin-top:15px;
+max-width:700px;
+font-size:1.1rem;
+line-height:1.7;
+}
+
+/* BUTTON */
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 40px;
+border-radius:10px;
+background:linear-gradient(135deg,#00f2ff,#00c3ff);
+color:#000;
+font-weight:700;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,242,255,0.5);
+transition:.4s;
+}
+.btn:hover{
+transform:translateY(-4px);
+box-shadow:0 0 40px rgba(0,242,255,0.9);
+}
+
+/* GRID */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.card{
+background:var(--card);
+padding:35px;
+border-radius:15px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 40px rgba(0,242,255,0.2);
+}
+
+.card h3{color:#fff}
+.card p{
+color:var(--dim);
+line-height:1.6;
+margin-top:10px;
+}
+
+.card i{
+color:var(--primary);
+font-size:2rem;
+margin-bottom:10px;
+}
+
+/* SCROLL */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-thumb{background:var(--primary)}
+
+@media(max-width:768px){
+.nav-links{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Somser-SA.jpg">
+Somser SA
+</div>
+
+<div class="nav-links">
+<a href="#home" id="navHome">Home</a>
+<a href="#about" id="navAbout">About</a>
+<a href="#skills" id="navSkills">Skills</a>
+<a href="#news" id="navNews">News</a>
+</div>
+
+<div class="lang">
+<button onclick="setLang('en')" id="enBtn" class="active">EN</button>
+<button onclick="setLang('bn')" id="bnBtn">BN</button>
+</div>
+</nav>
+
+<section id="home" class="hero">
+<div class="badge">ONLINE</div>
+<h1>Hello, I'm <br><span class="gradient">Somser SA</span></h1>
+<p id="heroText"></p>
+<a href="https://somser-sa.pro.bd" class="btn" id="btnText"></a>
+</section>
+
+<section id="about">
+<h2 id="aboutHead"></h2>
+<div class="grid">
+<div class="card">
+<p id="aboutText"></p>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<h2 id="skillHead"></h2>
+<div class="grid">
+
+<div class="card"><i class="fa-solid fa-shield-halved"></i><h3 id="skill1Title"></h3><p id="skill1Text"></p></div>
+<div class="card"><i class="fa-brands fa-python"></i><h3 id="skill2Title"></h3><p id="skill2Text"></p></div>
+<div class="card"><i class="fa-solid fa-user-secret"></i><h3 id="skill3Title"></h3><p id="skill3Text"></p></div>
+<div class="card"><i class="fa-solid fa-globe"></i><h3 id="skill4Title"></h3><p id="skill4Text"></p></div>
+<div class="card"><i class="fa-solid fa-code"></i><h3 id="skill5Title"></h3><p id="skill5Text"></p></div>
+<div class="card"><i class="fa-solid fa-shield-virus"></i><h3 id="skill6Title"></h3><p id="skill6Text"></p></div>
+
+</div>
+</section>
+
+<section id="news">
+<h2 id="newsHead"></h2>
+<div class="grid">
+<div class="card">
+<p id="newsText"></p>
+<a href="https://dailybanglarbani.com/somser-sa-cyber-security-team-icsf-bangladesh/" class="btn" id="newsBtn"></a>
+</div>
+</div>
+</section>
+
+<script>
+const data={
+en:{
+navHome:"Home",
+navAbout:"About",
+navSkills:"Skills",
+navNews:"News",
+hero:"Cybersecurity researcher, ethical hacker, and Python developer with expertise in penetration testing, vulnerability assessment, social engineering, and secure system architecture.",
+btn:"Contact Dev",
+aboutHead:"Biography",
+about:"Somser SA is a professional cybersecurity expert from Bangladesh and founder of Team ICSF. He specializes in penetration testing, vulnerability analysis, social engineering, and security research. His work focuses on building secure systems, identifying real-world threats, and developing advanced automation tools using Python. He actively researches modern cyber attacks, helps protect digital infrastructures, and contributes to the cybersecurity community through innovation and practical solutions. His expertise extends to social platform security analysis, web development, and threat intelligence.",
+skillHead:"Expertise",
+
+s1:"Cyber Defense",s1t:"Penetration testing, vulnerability assessment, and system hardening.",
+s2:"Python Automation",s2t:"Security tools, automation scripts, and data systems.",
+s3:"Social Engineering",s3t:"Human-based attack strategies and manipulation.",
+s4:"Social Platform Security",s4t:"Security analysis of social media platforms.",
+s5:"Web Developer",s5t:"Modern, secure, high-performance web systems.",
+s6:"Cyber Security Analysis",s6t:"Threat intelligence and vulnerability research.",
+
+newsHead:"News",
+news:"Somser SA has been featured in Daily Banglar Bani for his contribution to cybersecurity and leadership of Team ICSF.",
+newsBtn:"View Source"
+},
+
+bn:{
+navHome:"হোম",
+navAbout:"সম্পর্কে",
+navSkills:"দক্ষতা",
+navNews:"নিউজ",
+hero:"সাইবার সিকিউরিটি গবেষক, এথিক্যাল হ্যাকার এবং পাইথন ডেভেলপার।",
+btn:"যোগাযোগ",
+aboutHead:"জীবনী",
+about:"সোমসের এসএ বাংলাদেশের একজন সাইবার সিকিউরিটি বিশেষজ্ঞ এবং Team ICSF এর প্রতিষ্ঠাতা। তিনি পেনিট্রেশন টেস্টিং, সিকিউরিটি অ্যানালাইসিস, সোশ্যাল ইঞ্জিনিয়ারিং এবং সিস্টেম সিকিউরিটি নিয়ে কাজ করেন। তিনি আধুনিক সাইবার আক্রমণ নিয়ে গবেষণা করেন এবং নিরাপদ সিস্টেম তৈরিতে কাজ করেন।",
+skillHead:"দক্ষতা",
+
+s1:"সাইবার ডিফেন্স",s1t:"সিস্টেম সিকিউরিটি এবং টেস্টিং।",
+s2:"পাইথন অটোমেশন",s2t:"অটোমেশন টুল।",
+s3:"সোশ্যাল ইঞ্জিনিয়ারিং",s3t:"মানুষ ভিত্তিক আক্রমণ।",
+s4:"সোশ্যাল সিকিউরিটি",s4t:"সোশ্যাল মিডিয়া বিশ্লেষণ।",
+s5:"ওয়েব ডেভেলপার",s5t:"ওয়েবসাইট তৈরি।",
+s6:"সিকিউরিটি অ্যানালাইসিস",s6t:"থ্রেট বিশ্লেষণ।",
+
+newsHead:"নিউজ",
+news:"Daily Banglar Bani তে প্রকাশিত হয়েছে।",
+newsBtn:"দেখুন"
+}
+}
+
+function setLang(l){
+document.getElementById('navHome').innerText=data[l].navHome
+document.getElementById('navAbout').innerText=data[l].navAbout
+document.getElementById('navSkills').innerText=data[l].navSkills
+document.getElementById('navNews').innerText=data[l].navNews
+document.getElementById('heroText').innerText=data[l].hero
+document.getElementById('btnText').innerText=data[l].btn
+document.getElementById('aboutHead').innerText=data[l].aboutHead
+document.getElementById('aboutText').innerText=data[l].about
+document.getElementById('skillHead').innerText=data[l].skillHead
+
+document.getElementById('skill1Title').innerText=data[l].s1
+document.getElementById('skill1Text').innerText=data[l].s1t
+document.getElementById('skill2Title').innerText=data[l].s2
+document.getElementById('skill2Text').innerText=data[l].s2t
+document.getElementById('skill3Title').innerText=data[l].s3
+document.getElementById('skill3Text').innerText=data[l].s3t
+document.getElementById('skill4Title').innerText=data[l].s4
+document.getElementById('skill4Text').innerText=data[l].s4t
+document.getElementById('skill5Title').innerText=data[l].s5
+document.getElementById('skill5Text').innerText=data[l].s5t
+document.getElementById('skill6Title').innerText=data[l].s6
+document.getElementById('skill6Text').innerText=data[l].s6t
+
+document.getElementById('newsHead').innerText=data[l].newsHead
+document.getElementById('newsText').innerText=data[l].news
+document.getElementById('newsBtn').innerText=data[l].newsBtn
+
+document.getElementById('enBtn').classList.remove('active')
+document.getElementById('bnBtn').classList.remove('active')
+document.getElementById(l+'Btn').classList.add('active')
+}
+
+setLang('en')
+</script>
+
+</body>
+  </html>
